@@ -1,0 +1,181 @@
+
+#navcolor{
+    /* background-color: rgba(255, 148, 148) !important; */
+    background-color: rgb(108, 59, 114) !important;
+    font-size: 150%;
+    font-family: serif;
+}
+.nav-link{
+color: #fff !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* nav bar spacing */
+.nav-spacing{
+    padding: 30px;
+}
+
+body{
+    background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 100px;
+    font-family: serif;
+    text-align: center;
+    
+}
+
+.border1{
+    border: 2px ;
+    color: #f1eded ;
+    /* background-color: rgba(255, 148, 148, .76);  */ 
+    margin: 0px;
+    padding: 15px;
+    
+
+}
+#border1{
+    border: 2px ;
+    color: white ;
+    background-color: rgba(255, 148, 148, .30); 
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 20px;
+}
+#border11{
+    border: 2px;
+    color: #FF9494 ;
+    background-color: rgba(255, 148, 148, .41); 
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 0px;
+}
+#border2{
+     border:  2px ;  
+    
+    border-radius: 10px;  
+    margin: 15px;
+    padding: 15px;
+}
+#border3{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.border33{
+   
+    color:white;
+    font-size: 18px;
+    
+    text-shadow: 2px 2px 4px #000000;
+}
+#border33{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.border333{
+    text-align: center;
+    color:white;
+    font-size: 20   px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#border1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(108, 59, 114);
+        transition: 0.2s;
+  }
+
+
+#border4{
+    text-align: center;
+    border: 2px ;
+    padding-top: 50px;
+    background-color:rgba(255, 148, 148, .15); 
+    backdrop-filter: blur(5px);
+    
+}
+.picture-item{
+    max-height: 150px;
+    max-width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* tickets start */
+.tour-info {
+    margin-bottom: 20px;
+}
+.tour-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.tour-info p {
+    font-size: 16px;
+    color: #555;
+}
+.ticket-form {
+    text-align: left;
+    margin-top: 20px;
+}
+.ticket-form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.ticket-form input[type="text"],
+.ticket-form input[type="email"],
+.ticket-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.ticket-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgba(255, 148, 148,100);;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+footer{
+    text-align: center;
+    border: 2px ;
+    padding-top: 50px;
+    color: #fff;
+    background-color:rgba(255, 148, 148, .15); 
+    backdrop-filter: blur(5px);
+}
+
+
+
+  /* footer{
+    
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(255, 148, 148, .8);   
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+    text-shadow: 2px 2px 4px #000000;
+  } */

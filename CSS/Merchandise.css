@@ -1,0 +1,137 @@
+
+#navcolor{
+    /* background-color: rgba(255, 148, 148) !important; */
+    background-color: rgb(108, 59, 114) !important;
+    font-size: 150%;
+    font-family: serif;
+}
+.nav-link{
+color: #fff !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* nav bar spacing */
+.nav-spacing{
+    padding: 30px;
+}
+
+body{
+    background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 100px;
+    font-family: serif;
+    text-align: center;
+    
+}
+/* outer border starts*/
+.border1{
+    border: 2px ;
+    color: #f1eded ;
+    /* background-color: rgba(255, 148, 148, .76);  */ 
+    margin: 0px;
+    padding: 15px;
+ /* outer border end */
+}
+#border1{
+    border: 2px ;
+    color: white ;
+    background-color: rgba(255, 148, 148, .30); 
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 20px;
+}
+#border2{
+    border: 2px ;
+    color: white ;
+    background-color: rgba(255, 148, 148, .30); 
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 20px;
+}
+
+#border3{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+#border33{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#border1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    /* background-color: rgb(108, 59, 114); */
+        transition: 0.2s;
+  }
+.class{
+    max-height: 120px !important;
+}
+/* image fix card */
+.img-size{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/* card enlarge */
+.card{
+    transition: all 0.3s;
+}
+.card:hover {
+    transform: scale(1.08);
+}
+.button1{
+    background-color:rgb(108, 59, 114) !important;
+}
+/* card button */
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(108, 59, 114);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .card button:hover {
+    background-color: #2b0c2c;
+    transition: 0.2s;
+  }
+
+
+
+
+footer{
+    text-align: center;
+    border: 2px ;
+    padding-top: 50px;
+    color: #fff;
+    background-color:rgba(255, 148, 148, .15); 
+    backdrop-filter: blur(5px);
+}
+
+
+
+  /* footer{
+    
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(255, 148, 148, .8);   
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+    text-shadow: 2px 2px 4px #000000;
+  } */
