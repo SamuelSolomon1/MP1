@@ -153,6 +153,7 @@ body{
     align-items: center;
     /* text-align: center; */
     justify-content: space-around;
+    color: #ffffff;
 }
 
 button:hover {
